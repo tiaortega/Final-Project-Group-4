@@ -1,0 +1,15 @@
+/* remove default margin and padding from body */
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://media.istockphoto.com/photos/abstract-empty-white-frame-in-the-leaves-of-marijuana-picture-id1159774334?k=6&m=1159774334&s=612x612&w=0&h=KlJC49bXeD_tZtLQUVm2ZobZIDZjfb0iZOhsYFo3hO0=");
+    background-repeat: repeat;
+    background-color: brown;
+  }
+  
+  /* set map, body, and html to 100% of the screen size
+  #map,
+  body,
+  html {
+    height: 100%;
+  } */
