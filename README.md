@@ -1,6 +1,6 @@
 ## Really cool group name: Kanna-biz-ness
 
-(Tia Anderson-Ortega, Lupita Lopez, Joshua Rhoads)
+(Tia Anderson-Ortega, Lupita Lopez)
 
 Topic: What state is cannabis presently legal and what state is next? 
 
