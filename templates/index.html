@@ -11,17 +11,26 @@
   <title>What's your Bud?</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/business-casual.min.css" rel="stylesheet">
+  <link href="../static/css/business-casual.css" rel="stylesheet">
 
 </head>
-
+<style>
+body {
+  /* linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)),*/
+  font-family: 'Lora';
+  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('/static/img/Cannabis_photo.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+</style>
 <body>
 
   <h1 class="site-heading text-center text-white d-none d-lg-block">
@@ -39,22 +48,22 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="index.html">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link text-uppercase text-expanded" href="index">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+            <a class="nav-link text-uppercase text-expanded" href="about">About</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="research.html">Research</a>
+            <a class="nav-link text-uppercase text-expanded" href="research">Research</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="strains.html">Strains</a>
+            <a class="nav-link text-uppercase text-expanded" href="strains">Strains</a>
           </li>
-          <li class="nav-item px-lg-4">
+          <!-- <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
-          </li>
+          </li> -->
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="references.html">References</a>
+            <a class="nav-link text-uppercase text-expanded" href="references">References</a>
           </li>  
         </ul>
       </div>
@@ -64,7 +73,7 @@
   <section class="page-section clearfix">
     <div class="container">
       <div class="intro">
-        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="../static/img/intro.jpg" alt="">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
           <h2 class="section-heading mb-4">
             <span class="section-heading-upper">Freshest Cannabis</span>
@@ -73,7 +82,7 @@
           <p class="mb-3">Every strain of our quality cannabis starts with locally sourced, hand picked buds. Once you try it, our cannabis will be a blissful addition to your everyday morning or evening routine - we guarantee it!
           </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="products.html">Check us out!</a>
+            <a class="btn btn-primary btn-xl" href="strains">Check us out!</a>
           </div>
         </div>
       </div>
@@ -103,8 +112,8 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/vendor/jquery/jquery.min.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
