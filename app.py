@@ -22,9 +22,9 @@ def research():
 def strains():
     return render_template('strains.html')
 
-@app.route('/references')
-def references():
-    return render_template('references.html')
+@app.route('/resources')
+def resources():
+    return render_template('resources.html')
 
 
 if __name__ == "__main__":
