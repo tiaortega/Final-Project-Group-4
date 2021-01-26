@@ -1,4 +1,4 @@
-# Really cool group name: Big Tr33-Bizness
+# Big Tr33-Bizness
 
 ## Tia Anderson-Ortega and Lupita Lopez
 
