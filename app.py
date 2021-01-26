@@ -23,6 +23,9 @@ def strains():
     if request.method == 'POST':
        characteristics = request.form.getlist('favorite_vibe') 
        print(characteristics)
+       # insert code that sends the characteristics to the model and returns the recommended strains
+       return render_template('strains.html', strains=strains)
+       strains
     return render_template('strains.html')
 
 @app.route('/resources')
