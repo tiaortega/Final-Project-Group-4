@@ -18,6 +18,10 @@ def about():
 def research():
     return render_template('research.html')
 
+@app.route('/energy')
+def energy():
+    return render_template('energy.html')    
+
 @app.route('/strains', methods=['POST', 'GET'])
 def strains():
     if request.method == 'POST':
