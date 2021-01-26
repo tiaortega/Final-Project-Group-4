@@ -21,18 +21,27 @@
   <link href="../static/css/business-casual.css" rel="stylesheet">
 
 </head>
-
+<style>
+  body {
+  /* linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)),*/
+    font-family: 'Lora';
+    background: url("/static/img/Cannabis_photo.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  </style>
 <body>
 
   <h1 class="site-heading text-center text-white d-none d-lg-block">
     <span class="site-heading-upper text-primary mb-3">Welcome to</span>
-    <span class="site-heading-lower">Kanna-bizness.</span>
+    <span class="site-heading-lower">Big Trees.</span>
   </h1>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
     <div class="container">
-      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Big Trees</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -54,7 +63,7 @@
             <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
           </li> -->
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="references">References</a>
+            <a class="nav-link text-uppercase text-expanded" href="resources">Resources</a>
           </li>
         </ul>
       </div>
@@ -74,16 +83,56 @@
               </h2>
               <p>We will offer the largest variety of high potency concentrates, pre-rolls, infused edibles, topicals, transdermals, tinctures, and more THC and CBD products. Our meticulous focus on both quality and the best possible prices will help us to grow to be one of Texas’ most beloved cannabis brands.</p>
               <p class="mb-0">We guarantee that you will fall in <em>lust</em> with our decadent strains the moment you walk inside. Our dispensary is fully ready to answer any and all of your questions to help find the perfect solution for your cannabis needs.</p>
-            </div>
+              <p>
+              </p>
+  <body>
+    <form method="post" action="/strains">  
+      <fieldset>      
+          <legend>What is Your Favorite Vibe?</legend>
+    <table style="width:100%">
+      <tr>
+        <td><input type="checkbox" name="favorite_vibe" value="Energetic">Energetic<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Creative">Creative<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Aroused">Aroused<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Aroused">Aroused<br></td>
+        
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="favorite_vibe" value="Cats">En<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Dogs">Dogs<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Birds">Birds</td>
+        <td><input type="checkbox" name="favorite_vibe" value="Creative">Creative<br></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="favorite_vibe" value="Cats">En<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Cats">En<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Cats">En<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Creative">Creative<br></td>
+      </tr>
+    </table>
+    
+    </body>
+          </fieldset>
+               </tr>  
+              </form>           
+            </table>
+              <button type="submit">SUBMIT</button> 
+                
+                 
+                <div>{{ strains }}</div>
+            
+              </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+
+  
   <footer class="footer text-faded text-center py-5">
     <div class="container">
-      <p class="m-0 small">Copyright &copy; Your Website 2020</p>
+      <p class="m-0 small">Copyright &copy; Lupita Lopez & Tia Anderson-Ortega 2021</p>
     </div>
   </footer>
 
