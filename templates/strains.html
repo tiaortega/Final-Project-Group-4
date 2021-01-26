@@ -133,39 +133,41 @@
               <p>......</p>
               <p class="mb-0">.....................</p>
   <body>
-    <form method="post" action="/strains">  
+    <form method="post" action="{{url_for('handle_form')}}">  
       <fieldset>      
           <legend>What is Your Vibe(s)?</legend>
     <table style="width:100%">
       <tr>
-        <td><input type="checkbox" name="favorite_vibe" value="Energetic">Energetic<br></td>
-        <td><input type="checkbox" name="favorite_vibe" value="Creative">Creative<br></td>
-        <td><input type="checkbox" name="favorite_vibe" value="Tingly">Tingly<br></td>
-        <td><input type="checkbox" name="favorite_vibe" value="Aroused">Aroused<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="energetic">Energetic<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="creative">Creative<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="tingly">Tingly<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="aroused">Aroused<br></td>
       </tr>
       <tr>
-        <td><input type="checkbox" name="favorite_vibe" value="Euphoric">Euphoric<br></td>
-        <td><input type="checkbox" name="favorite_vibe" value="Relaxed">Relaxed<br></td>
-        <td><input type="checkbox" name="favorite_vibe" value="Happy">Happy</td>
-        <td><input type="checkbox" name="favorite_vibe" value="Uplifted">Uplifted<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="euphoric">Euphoric<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="relaxed">Relaxed<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="happy">Happy</td>
+        <td><input type="checkbox" name="favorite_vibe" value="uplifted">Uplifted<br></td>
       </tr>
       <tr>
-        <td><input type="checkbox" name="favorite_vibe" value="Hungry">Hungry<br></td>
-        <td><input type="checkbox" name="favorite_vibe" value="Talkative">Talkative<br></td>
-        <td><input type="checkbox" name="favorite_vibe" value="Sleepy">Sleepy<br></td>
-        <td><input type="checkbox" name="favorite_vibe" value="Focused">Focused<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="hungry">Hungry<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="talkative">Talkative<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="sleepy">Sleepy<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="focused">Focused<br></td>
       </tr>
     </table>
+
+    <input type="submit">
     
     </body>
           </fieldset>
                </tr>  
               </form>           
             </table>
-              <button type="submit">SUBMIT</button> 
+             <!-- <button type="submit">SUBMIT</button> --->
                 
                  
-                <div>{{ strains }}</div>
+                <div>{{ strains["prediction"] }}</div>
           </div>
         </div>
         </div>
