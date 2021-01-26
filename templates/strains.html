@@ -79,13 +79,13 @@
             <div class="bg-faded rounded p-5">
               <h2 class="section-heading mb-4">
                 <span class="section-heading-upper"></span>
-                <span class="section-heading-lower">Strains</span>
+                <span class="section-heading-lower">Let us look at the History of Cannabis Strains</span>
               </h2>
-              <p>We will offer the largest variety of high potency concentrates, pre-rolls, infused edibles, topicals, transdermals, tinctures, and more THC and CBD products. Our meticulous focus on both quality and the best possible prices will help us to grow to be one of Texas’ most beloved cannabis brands.</p>
+              <p>These 3 strains are: Sativa, Indica, and Hybrid. Three cannabis strains that embody different strengths, that affect body and mind.</p>
               <p class="mb-0">We guarantee that you will fall in <em>lust</em> with our decadent strains the moment you walk inside. Our dispensary is fully ready to answer any and all of your questions to help find the perfect solution for your cannabis needs.</p>
               <p>
               </p>
-  <body>
+  <!-- <body>
     <form method="post" action="/strains">  
       <fieldset>      
           <legend>What is Your Favorite Vibe(s)?</legend>
@@ -119,7 +119,7 @@
               <button type="submit">SUBMIT</button> 
                 
                  
-                <div>{{ strains }}</div>
+                <div>{{ strains }}</div> -->
             
               </div>
           </div>
@@ -143,17 +143,51 @@
               <p class="mb-0">We guarantee that you will fall in
                 <em>lust</em>
                 with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.</p>
-            </div>
+  <body>
+    <form method="post" action="/strains">  
+      <fieldset>      
+          <legend>What is Your Favorite Vibe(s)?</legend>
+    <table style="width:100%">
+      <tr>
+        <td><input type="checkbox" name="favorite_vibe" value="Energetic">Energetic<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Creative">Creative<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Tingly">Tingly<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Aroused">Aroused<br></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="favorite_vibe" value="Euphoric">Euphoric<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Relaxed">Relaxed<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Happy">Happy</td>
+        <td><input type="checkbox" name="favorite_vibe" value="Uplifted">Uplifted<br></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="favorite_vibe" value="Hungry">Hungry<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Talkative">Talkative<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Sleepy">Sleepy<br></td>
+        <td><input type="checkbox" name="favorite_vibe" value="Focused">Focused<br></td>
+      </tr>
+    </table>
+    
+    </body>
+          </fieldset>
+               </tr>  
+              </form>           
+            </table>
+              <button type="submit">SUBMIT</button> 
+                
+                 
+                <div>{{ strains }}</div>
           </div>
+        </div>
         </div>
       </div>
     </div>
   </section>
-
+  
   
   <footer class="footer text-faded text-center py-5">
     <div class="container">
-      <p class="m-0 small">Copyright &copy; Lupita Lopez & Tia Anderson-Ortega 2021</p>
+      <p class="m-0 large">Copyright &copy; Lupita Lopez & Tia Anderson-Ortega 2021</p>
     </div>
   </footer>
 
