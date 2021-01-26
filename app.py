@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from sklearn import datasets
 import pandas as pd
+import os
 
 app = Flask(__name__)
 
@@ -30,22 +31,7 @@ def energy():
 
 @app.route('/strains', methods=['POST', 'GET'])
 def strains():
-    if request.method == 'POST':
-       characteristics = request.form.getlist('favorite_vibe') 
-       print(characteristics)
-
-       dictionary_vibes = []
-       for vibe in characteristics:
-           formatted_vibe = get_vibe(request.form, vibe)
-           dictionary_vibes.append(formatted_vibe)
-
-       for dic_vibe in dictionary_vibes:
-           print(dic_vibe)
-
-       # insert code that sends the characteristics to the model and returns the recommended strains
-       return render_template('strains.html', strains=strains)
-       
-    return render_template('strains.html')
+    return render_template('strains.html', strains={'prediction': ''})
 
 @app.route('/handle_form', methods=['POST'])
 def handle_form():
