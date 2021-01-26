@@ -1,4 +1,4 @@
-## Really cool group name: Kanna-biz-ness
+## Really cool group name: Big Tr33-Bizness
 
 (Tia Anderson-Ortega, Lupita Lopez)
 

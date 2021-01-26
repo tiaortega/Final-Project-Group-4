@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -18,8 +18,11 @@ def about():
 def research():
     return render_template('research.html')
 
-@app.route('/strains')
+@app.route('/strains', methods=['POST', 'GET'])
 def strains():
+    if request.method == 'POST':
+       characteristics = request.form.getlist('favorite_vibe') 
+       print(characteristics)
     return render_template('strains.html')
 
 @app.route('/resources')
