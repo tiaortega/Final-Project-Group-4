@@ -1,18 +1,19 @@
-### Really cool group name: Big Tr33-Bizness
+# Really cool group name: Big Tr33-Bizness
 
 Tia Anderson-Ortega and Lupita Lopez
 
 
 ## Objection: Final Project -- Demystifying Machine Learning
+
   # Indentify a problem worth solving , analyze and visualize.
   # Implemented 1 or more ML models using Scikit-Learn 
   # Components used: Python data processing, Flask server, Web-based UI (HTML/CSS/Bootstrap), Interactive visualization (Plotly and Tableau) and Heroku deployment
 
 
 
-## Topic
-How to predict from rating , the 3 different types of cannabis?
-How to predict the strain type from effects?
+### Topic
+### How to predict from rating , the 3 different types of cannabis?
+### How to predict the strain type from effects?
 
 
 ## Data Sources:https://otreeba.com 
@@ -27,7 +28,7 @@ How to predict the strain type from effects?
                https://www.fda.gov/news-events/public-health-focus/fda-and-cannabis-research-and-drug-approval-process
                
                
-# Cite: Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
+### Cite: Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
 
 
 ## Type of ML analysis: Regression with Supervised learning (predicting a continuous valued output)
@@ -36,6 +37,6 @@ How to predict the strain type from effects?
 ## Models:  Logistic Regression 3 – class Classifier
 
 
-## Visualizations include: Mapbox (Interactive maps), Tableau (Interactive bar chart and dashboard), Scatter plots, Flask, and Heroku.
+## Visualizations include: Mapbox (Interactive maps), Tableau (Interactive bar chart and dashboard), Scatter plots, Flask, and Heroku deployment.
 
 ## Heroku : bigtr33s.herokuapp.com
