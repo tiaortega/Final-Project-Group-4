@@ -44,6 +44,6 @@
 
 ## Visualizations include: Mapbox (Interactive maps), Tableau (Interactive bar chart and dashboard), Scatter plots, Flask, and Heroku deployment.
 
-
+<img src="https://media2.giphy.com/media/26tnjyj8XnB83tfA4/giphy.gif" alt="Newsroom" class="js-lazy-loaded qa-js-lazy-loaded">
 
 # Heroku: http://bigtr33s.herokuapp.com/
