@@ -46,4 +46,4 @@
 
 
 
-# Heroku: bigtr33s.herokuapp.com
+# Heroku: http://bigtr33s.herokuapp.com/
